@@ -35,3 +35,8 @@ jobs:
           echo Add other actions to build,
            # Runs a single command using the runners shell
           echo test, and deploy your project.
+      # Runs a single command using the runners shell
+      - name: personal information
+        run: echo name-Gagana 
+        dob-18-04-2000
+        
