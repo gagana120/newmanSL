@@ -35,5 +35,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: personal information
         run: echo name-Gagana 
-        dob-18-04-2000
+      
+        
         
