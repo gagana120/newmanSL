@@ -33,4 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
+           # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo personal information!
           echo test, and deploy your project.
