@@ -27,7 +27,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Personal information
-        run: | Name - Gagana shetty
+        run: | 
           echo Add other actions to build,
            # Runs a single command using the runners shell
           echo test, and deploy your project.
