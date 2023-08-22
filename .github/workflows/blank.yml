@@ -28,9 +28,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Personal information
         run: | 
-          echo Name-Gaana 
-              dob-18-04-2000
-              email-gaanashetty@123,
+          echo Name-Gaana dob-18-04-2000
+                   
            # Runs a single command using the runners shell
           echo test, and deploy your project.
           
