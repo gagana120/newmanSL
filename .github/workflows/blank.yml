@@ -48,12 +48,6 @@ jobs:
         run: | 
          newman run "CRUD.postman_collection.json" -e "workspace.postman_globals.json" -r htmlextra --reporter-htmlextra-export SampleArtifact/report.html
 
-         #Publish the Report
-        -name: Publish Report
-        uses: actions/upload-artifact@v3
-         with:
-        name : Reports
-        path : SampleArtifact
          
       
         
