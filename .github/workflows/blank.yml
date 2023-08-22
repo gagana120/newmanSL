@@ -36,7 +36,7 @@ jobs:
       - name: Install NodeJS
         uses: actions/checkout@v3
         with:
-          node-version : '17.x'
+          node-version : '9.6.7'
     
         #Install newman and reporter 
       - name: Install newman
