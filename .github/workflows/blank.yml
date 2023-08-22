@@ -28,7 +28,7 @@ jobs:
       #Install NodeJS
       - name: Install NodeJS
       - with:
-     node-version: '9.6.7'
+     node-version : '9.6.7'
     
         #Install newman and reporter 
       - name: Install newman
