@@ -47,7 +47,5 @@ jobs:
          
       - name: Run collection
         run: | 
-         newman run "CRUD.postman_collection.json" -r htmlextra--reporter cli,htmlextra--reporter-htmlextra-export-testArtifacts/htmlreport.html  
-      
-        
+         newman run "CRUD.postman_collection.json" -r htmlextra--reporter cli,htmlextra--reporter
         
