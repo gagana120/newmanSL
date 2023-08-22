@@ -29,14 +29,13 @@ jobs:
          mkdir SampleArtifact
 
     # Steps represent a sequence of tasks that will be executed as part of the job
-    steps1:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+          # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
       #Install NodeJS
       - name: Install NodeJS
       - with:
-        node-version : '9.6.7'
+        node-version : '17.x'
     
         #Install newman and reporter 
       - name: Install newman
