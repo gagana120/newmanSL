@@ -46,7 +46,7 @@ jobs:
          
       - name: Run collection
         run: | 
-         newman run "CRUD.postman_collection.json" -e "workspace.postman_globals.json"
+         newman run "CRUD.postman_collection.json"
                    
 
       
