@@ -26,17 +26,16 @@ jobs:
       - uses: actions/checkout@v3
 
       #Install NodeJS
-     - name: Install NodeJS
-     - uses: actions/checkout@v3
+      - name: Install NodeJS
+     uses: actions/checkout@v3
      with:
      node-version: '9.6.7'
-
-     
-       #Install newman and reporter 
+    
+        #Install newman and reporter 
       - name: Install newman
         run: | npm install -g newman 
 
-           # Run collection
+       # Run collection
       - name: Run collection
         run: | 
           echo newman run "CRUD.postman_collection.json"
